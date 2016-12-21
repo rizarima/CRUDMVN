@@ -1,0 +1,9 @@
+com/rizarima/CrudDataSiswa/domain/Role.class
+com/rizarima/CrudDataSiswa/service/UserDao.class
+com/rizarima/CrudDataSiswa/domain/User.class
+com/rizarima/CrudDataSiswa/domain/Permission.class
+com/rizarima/CrudDataSiswa/service/SiswaDao.class
+com/rizarima/CrudDataSiswa/App.class
+com/rizarima/CrudDataSiswa/controller/SiswaController.class
+com/rizarima/CrudDataSiswa/config/SecurityConfig.class
+com/rizarima/CrudDataSiswa/domain/Siswa.class

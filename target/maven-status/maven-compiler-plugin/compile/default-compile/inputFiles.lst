@@ -1,0 +1,9 @@
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/service/SiswaDao.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/App.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/domain/User.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/domain/Role.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/domain/Permission.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/controller/SiswaController.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/config/SecurityConfig.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/domain/Siswa.java
+/home/rizarima/CRUDMVN/src/main/java/com/rizarima/CrudDataSiswa/service/UserDao.java
