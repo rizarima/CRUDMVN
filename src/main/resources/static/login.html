@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Data Siswa</title>
+        <link href="/lib/css/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/lib/css/materialize.css"  media="screen,projection"/>
+        <style type="text/css">
+        .crud-cont{
+            margin: 50px auto 40px;
+            width: 70%;
+        }
+        </style>
+        <script src="/lib/js/jquery.min.js"></script>
+        <script src="/lib/js/materialize.min.js"></script>
+        <script src="/lib/js/angular.min.js"></script>
+        <script src="/lib/js/angular-route.min.js"></script>
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/controller/siswaController.js"></script>
+        <script src="/scripts/service/siswaService.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app="aplikasiDataSiswa" class="white lighten-4">
+ <div class="container col m6" id="asu">
+  <div id="login-page" class="row">
+    <div class="col s6 z-depth-4 card-panel">
+  <form action="/login" method="post" class="col s12">
+        <div class="row">
+          <div class="input-field col s12 center">            
+            <h5 class="light">Login Data Siswa</h5>
+          </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s11">
+            <i class="mdi-social-person-outline prefix"></i>
+            <input type="text" name="username" class="validate">
+            <label for="username" class="center-align">Username</label>
+          </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s11">
+            <i class="mdi-action-lock-outline prefix"></i>
+            <input type="password" name="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+      <br>
+         <button type="submit" style="width: 100%" class="btn waves-effect waves-light">Login</button>
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+    </body>
+</html>

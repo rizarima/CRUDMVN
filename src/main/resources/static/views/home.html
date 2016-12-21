@@ -1,0 +1,54 @@
+<div class="card-panel" ng-init="tampilkanData()">
+    <h4 class="light">Data Siswa</h4>
+    <div class="row">
+        <div class="col s6 m6">
+            <div class="row">
+                <div class="input-field col s12 m7">
+                    <input placeholder="NIS" type="text" class="validate" ng-model="currentSiswa.nis">
+                </div>
+                <div class="input-field col s12 m7">
+                    <input placeholder="Nama Siswa" type="text" class="validate" ng-model="currentSiswa.nama">
+                </div>
+                <div class="input-field col s12 m7">
+                    <input placeholder="Alamat" type="text" class="validate" ng-model="currentSiswa.alamat">
+                </div>
+                <div class="input-field col s12 m7">
+                    <input placeholder="Tempat Lahir" type="text" class="validate" ng-model="currentSiswa.tempatLahir">
+                </div>
+                <div class="input-field col s12 m7">
+                    <input placeholder="Tanggal Lahir" type="text"  ng-model="currentSiswa.tanggalLahir">
+                </div>
+                <div class="input-field col s12">
+                    <button class="btn waves-effect waves-light" ng-click="simpanData(currentSiswa)">Simpan</button>
+                </div>
+            </div>
+        </div>
+        <div class="col s6 m6">
+            <table class="striped centered responsive-table ">
+        <thead>
+            <tr>
+                <th>NIS</th>
+                <th>Nama Siswa</th>
+                <th>Alamat</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal Lahir</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="siswa in dataServer">
+                <td>{{ siswa.nis }}</td>
+                <td>{{ siswa.nama }}</td>
+                <td>{{ siswa.alamat }}</td>
+                <td>{{ siswa.tempatLahir }}</td>
+                <td>{{ siswa.tanggalLahir }}</td>
+                <td>
+                    <button class="btn waves-effect waves-light" ng-click="editData(siswa)">Edit</button>
+                    <button class="btn waves-effect waves-light" ng-click="hapusData(siswa.id)">Hapus</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        </div>
+    </div>
+</div>
